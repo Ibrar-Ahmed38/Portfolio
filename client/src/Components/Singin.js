@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { NavLink, useHistory } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import Images from "./Images/log1.png";
 // import {singinUser} from './api/register'
 
 const Singin = () => {
-  const history = useHistory()
+  // const history = useHistory()
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
 
@@ -22,7 +22,7 @@ const Singin = () => {
     console.log(res)
     const data = await res.json() 
     console.log(data)
-    history.push('/')
+    // history.push('/')
   };
 
   return (

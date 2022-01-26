@@ -18,6 +18,7 @@
     "express": "^4.17.1",
     "http-proxy-middleware": "^2.0.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.0.12"
+    "mongoose": "^6.0.12",
+    "react-toastify": "^8.1.0"
   }
 }
