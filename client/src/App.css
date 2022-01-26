@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.heading-section{
+  padding-top: 150px;
+  /* background:linear-gradient(35deg, #fb6340, #fbb140) !important */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading-section p {
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.submitbtn{
+  width: 120px;
+  border: none;
+  border-radius: 50px;
+}
+
+.logoin-form{
+  padding-top: 80px;
+}
+
+.login-btn{
+  border-radius: 50px;
+}
+
+.menu-active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar{
+  background-color: royalblue;
+}
+.body-section{
+  
+  background: rgb(238, 236, 236);
+} 
+.nav-link{
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.cv_btn{
+  width: 200px;
+  height: 60px;
+  font-size: 23px;
+  font-weight: 700;
+  color: black;
+  background-color: royalblue;
+}
+
+
+.right__headings{
+  font-size: 20px;
+  padding-top: 100px;
+}
+
+
+
+.headings{
+  padding-top: 50px;
+
+  
+}
+
+.headings h1{
+  font-size: 80px;
+  color: black;
+}
+
+.headings h3{
+  font-size: 50px;
+  color: black;
+}
+
+.headings p {
+  font-size: 24px;
+  color: black;
+  font-weight: 600;
+}
+
+
+
+.images{
+  padding-bottom: 30px;
+}
+
+.skills__section{
+  width: 100%;
+  height: 600px;
+}
+
+.skill-section{
+  background: rgb(238, 236, 236);
+}
+
+.headings{
   color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.heading-div{
+  padding-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.previous-work{
+  background: black;
 }
+
+
+
+ /* linear-gradient(35deg, #fb6340, #fbb140) !important */
